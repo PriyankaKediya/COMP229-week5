@@ -1,6 +1,6 @@
 {
   "name": "comp229-f2021-lesson5",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Demo Project for COMP229 Lesson 5",
   "author": "Priyanka Kediya",
   "main": "server.js",
