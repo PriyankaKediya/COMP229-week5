@@ -1,8 +1,8 @@
 "use strict";
 /*
-* Author     : Tom Tsiliopoulos
+* Author     : Priyanka kediya
 * Date       : September 20, 2021
-* Description: Demo Project for COMP229-F2021-Lesson3
+* Description: Demo Project for COMP229-F2021-Lesson5
 */
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;

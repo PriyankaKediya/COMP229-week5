@@ -1,7 +1,7 @@
 /*
-* Author     : Tom Tsiliopoulos
+* Author     : Priyanka kediya
 * Date       : September 20, 2021
-* Description: Demo Project for COMP229-F2021-Lesson3
+* Description: Demo Project for COMP229-F2021-Lesson5
 */
 
 import createError from 'http-errors';

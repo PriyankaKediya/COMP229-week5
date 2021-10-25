@@ -1,7 +1,7 @@
 /*
-* Author     : Tom Tsiliopoulos
+* Author     : Priyanka kediya
 * Date       : September 20, 2021
-* Description: Demo Project for COMP229-F2021-Lesson3
+* Description: Demo Project for COMP229-F2021-Lesson5
 */
 
 import createError from 'http-errors';
@@ -13,13 +13,13 @@ import logger from 'morgan';
 import mongoose, {mongo } from 'mongoose';
 
 import indexRouter from '../Routes/index';
-
+require("dotenv").config();
 const app = express();
 export default app;
 
 //DB configuration
 import * as DBConfig from './db';
-mongoose.connect(DBConfig.LocalURI, {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(DBConfig.RemoteURI, {useNewUrlParser: true, useUnifiedTopology: true});
 
 const db = mongoose.connection; //alias for the mongoose connection
 db.on("error", function()
