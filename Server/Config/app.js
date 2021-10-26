@@ -46,7 +46,6 @@ db.on("error", function () {
 db.once("open", function () {
     console.log(`Connected to MongoDB at: ${DBConfig.HostName} `);
 });
-//console.log(`${DBConfig.RemoteURI}`);
 // view engine setup
 app.set('views', path_1.default.join(__dirname, '../Views'));
 app.set('view engine', 'ejs');

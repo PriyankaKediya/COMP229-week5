@@ -19,6 +19,7 @@ export default app;
 
 //DB configuration
 import * as DBConfig from './db';
+
 mongoose.connect(DBConfig.RemoteURI, {useNewUrlParser: true, useUnifiedTopology: true});
 
 const db = mongoose.connection; //alias for the mongoose connection
@@ -31,7 +32,6 @@ db.once("open", function()
 {
   console.log(`Connected to MongoDB at: ${DBConfig.HostName} `)
 });
-//console.log(`${DBConfig.RemoteURI}`);
 
 // view engine setup
 app.set('views', path.join(__dirname, '../Views'));
